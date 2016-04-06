@@ -42,6 +42,9 @@ question5: question5.c
 
 question7: question7.c
 	gcc -Wall -pthread -lm -o question7 question7.c
+	
+question10: question10.c
+	gcc -Wall -pthread -lm -o question10 question10.c
 # add your own rules when you create new programs
 
 #########################
@@ -62,5 +65,5 @@ run5: question5
 ## utilities
 
 clean:
-	rm -f question1 question2 question3 question5 tiny.txt small.txt medium.txt large.txt many.txt nb.txt
+	rm -f question1 question2 question3 question5 question7 question10 tiny.txt small.txt medium.txt large.txt many.txt nb.txt
 
